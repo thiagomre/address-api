@@ -11,7 +11,7 @@
 * Foi criado um shell script para automatizar o deploy local da api.
   Executar no terminal o comando abaixo, que permite que ele seja executado como um script:
   ```
-    chmod +x addressRun.sh
+    chmod +x gradlew addressRun.sh
   ```
   
   Este script faz o build do projeto, depois faz o build do docker e sobe a aplicação.
