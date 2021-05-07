@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: pix-api-search-service
+  datasource:
+    url: jdbc:h2:mem:address;MODE=Oracle
+    username: sa
+    password: mypass
+    driverClassName: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        trace: false
+        web-allow-others: false
